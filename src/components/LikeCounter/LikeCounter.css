@@ -1,0 +1,20 @@
+.post {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 0.5rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.actions > button {
+  background-color: blue;
+  color: white;
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.25rem 1rem;
+}
